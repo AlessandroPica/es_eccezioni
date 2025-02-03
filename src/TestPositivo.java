@@ -6,5 +6,6 @@ public class TestPositivo {
         } catch (NegativeException e) {
             System.err.println("Eccezione catturata: " + e.getMessage());
         }
+        System.out.println("Fine programma");
     }
 }
